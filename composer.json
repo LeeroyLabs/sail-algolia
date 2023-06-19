@@ -1,0 +1,20 @@
+{
+    "name": "leeroy/sail-algolia",
+    "description": "Algolia Adapter for SailCMS",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Leeroy\\Search\\Algolia\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antoine Chouinard",
+            "email": "antoine@leeroy.ca"
+        }
+    ],
+    "require": {
+        "algolia/algoliasearch-client-php": "^3.3"
+    }
+}
