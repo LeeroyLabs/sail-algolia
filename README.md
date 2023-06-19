@@ -38,10 +38,9 @@ When installed, you need to add the following to your `.env` file.
 
 ```
 SEARCH_ENGINE=algolia
-ALGOLIA_HOST=yourmeilihost
-ALGOLIA_PORT=7700
+APPLICATION_ID=yourappid
+ADMIN_API_KEY=yourapikey
 ALGOLIA_INDEX=default_index
-ALGOLIA_MASTER_KEY=your_master_key
 ```
 
 
