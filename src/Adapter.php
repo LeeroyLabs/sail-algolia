@@ -91,39 +91,37 @@ class Adapter implements SearchAdapter
         return new SearchResults($results->getHits(), $results->getHitsCount());
     }
 
-//    /**
-//     *
-//     * Update filterable attributes
-//     *
-//     * Note: Execute this using the "execute" method on the SailCMS\Search class.
-//     *
-//     * @param string $index
-//     * @param array $fields
-//     * @return bool
-//     *
-//     */
-//    public function updateFilterable(string $index, array $fields = []): bool
-//    {
-//        $this->client->initIndex($index)->updateFilterableAttributes($fields);
-//        return true;
-//    }
-//
-//    /**
-//     *
-//     * Update sortable attributes
-//     *
-//     * Note: Execute this using the "execute" method on the SailCMS\Search class
-//     *
-//     * @param string $index
-//     * @param array $fields
-//     * @return bool
-//     *
-//     */
-//    public function updateSortable(string $index, array $fields = []): bool
-//    {
-//        $this->client->initIndex($index)->updateSortableAttributes($fields);
-//        return true;
-//    }
+    /**
+     *
+     * Update filterable attributes
+     *
+     * Note: Execute this using the "execute" method on the SailCMS\Search class.
+     *
+     * @param string $index
+     * @param array $fields
+     * @return bool
+     *
+     */
+    public function updateFilterable(string $index, array $fields = []): bool
+    {
+        return true;
+    }
+
+    /**
+     *
+     * Update sortable attributes
+     *
+     * Note: Execute this using the "execute" method on the SailCMS\Search class
+     *
+     * @param string $index
+     * @param array $fields
+     * @return bool
+     *
+     */
+    public function updateSortable(string $index, array $fields = []): bool
+    {
+        return true;
+    }
 
     /**
      *
