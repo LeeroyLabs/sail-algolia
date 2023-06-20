@@ -38,8 +38,8 @@ When installed, you need to add the following to your `.env` file.
 
 ```
 SEARCH_ENGINE=algolia
-APPLICATION_ID=yourappid
-ADMIN_API_KEY=yourapikey
+ALGOLIA_APPLICATION_ID=yourappid
+ALGOLIA_ADMIN_API_KEY=yourapikey
 ALGOLIA_INDEX=default_index
 ```
 

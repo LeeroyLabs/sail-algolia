@@ -16,7 +16,7 @@ class Adapter implements SearchAdapter
 
     public function __construct()
     {
-        $this->client = SearchClient::create(env('APPLICATION_ID'), env('ADMIN_API_KEY'));
+        $this->client = SearchClient::create(env('ALGOLIA_APPLICATION_ID'), env('ALGOLIA_ADMIN_API_KEY'));
         $this->index = $this->client->initIndex(env('ALGOLIA_INDEX', 'data'));
     }
 
